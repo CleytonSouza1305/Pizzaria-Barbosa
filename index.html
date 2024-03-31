@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+   <link rel="stylesheet" href="./css/global.css">
+   <link rel="stylesheet" href="./css/style.css">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <meta property="og:type" content="website">
+   <meta property="og:title" content="Pizzaria Barbosa">
+   <meta property="og:image" content="https://br.freepik.com/vetores-premium/logotipo-da-pizza-italiana-com-uma-pizza-e-um-chef-segurando-uma-pizza_41630587.htm">
+   <meta property="og:description" content="A melhor pizzaria do seu bairro!">
+   <meta property="og:site_name" content="Pizzaria Barbosa">
+
+   <link rel="shortcut icon" href="img/logo-pizzaria.jpg" type="image/x-icon">
+
+   <title>Pizzaria Barbosa</title>
+</head>
+<body>
+   <header>
+      <a href="#"><img src="img/logo-pizzaria.jpg" alt="Logo da Pizzaria"></a>
+      <p class="close" id="el-timer">Aberto das 17h às 23h59</p>
+   </header>
+
+   <h2>Escolha sua pizza favorita!</h2>
+
+   <main>
+      <div class="card">
+         <img src="img//pizza-de-mussarela.jpeg" alt="Pizza de Mussarela" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300 object-cover">
+
+         <div>
+            <p class="name-pizza">Pizza de Mussarela</p>
+            <p class="description">Inspirada nas mais tradicionais pizzas italianas, a massa é produzida com um blend de farinhas especiais.</p>
+
+            <div class="product-info">
+               <p class="price-item">R$ 19.99</p>
+               <button class="btn-add-to-cart" data-name="Pizza de Mussarela" data-price="19.99" data-image="../img/pizza-de-mussarela.jpeg">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+               </button>
+            </div>
+         </div>
+      </div>
+
+      <div class="card">
+         <img src="img//pizza-de-calabresa.webp" alt="Pizza de Calabresa" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300 object-cover">
+
+         <div>
+            <p class="name-pizza">Pizza de Calabresa</p>
+            <p class="description">Inspirada nas mais tradicionais pizzas italianas, a massa é produzida com um blend de farinhas especiais.</p>
+
+            <div class="product-info">
+               <p class="price-item">R$ 19.99</p>
+               <button class="btn-add-to-cart" data-name="Pizza de Calabresa" data-price="19.99" data-image="../img/pizza-de-calabresa.webp">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+               </button>
+            </div>
+         </div>
+      </div>
+
+      <div class="card">
+         <img src="img//pizza-de-frango-e-catupiry.jpg" alt="Pizza de Frango e Catupiry" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300 object-cover">
+
+         <div>
+            <p class="name-pizza">Frango e Catupiry</p>
+            <p class="description">Inspirada nas mais tradicionais pizzas italianas, a massa é produzida com um blend de farinhas especiais.</p>
+
+            <div class="product-info">
+               <p class="price-item">R$ 29.99</p>
+               <button class="btn-add-to-cart" data-name="Frango e Catupiry" data-price="29.99" data-image="../img/pizza-de-frango-e-catupiry.jpg">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+               </button>
+            </div>
+         </div>
+      </div>
+
+      <div class="card">
+         <img src="img//pizza-portuguesa.jpeg" alt="Pizza Portuguesa" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300 object-cover">
+
+         <div>
+            <p class="name-pizza">Pizza Portuguesa</p>
+            <p class="description">Inspirada nas mais tradicionais pizzas italianas, a massa é produzida com um blend de farinhas especiais.</p>
+
+            <div class="product-info">
+               <p class="price-item">R$ 29.99</p>
+               <button class="btn-add-to-cart" data-name="Pizza Portuguesa" data-price="29.99" data-image="../img/pizza-portuguesa.jpeg">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+               </button>
+            </div>
+         </div>
+      </div>
+
+      <div class="card">
+         <img src="img//pizza-marguerita.jpg" alt="Pizza de Marguerita" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300 object-cover">
+
+         <div>
+            <p class="name-pizza">Pizza de Marguerita</p>
+            <p class="description">Inspirada nas mais tradicionais pizzas italianas, a massa é produzida com um blend de farinhas especiais.</p>
+
+            <div class="product-info">
+               <p class="price-item">R$ 29.99</p>
+               <button class="btn-add-to-cart" data-name="Pizza de Marguerita" data-price="29.99" data-image="../img/pizza-marguerita.jpg">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+               </button>
+            </div>
+         </div>
+      </div>
+
+      <div class="card">
+         <img src="img//pizza-quatro-queijos.webp" alt="Pizza de Quatro queijos" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300 object-cover">
+
+         <div>
+            <p class="name-pizza">Pizza de Quatro queijos</p>
+            <p class="description">Inspirada nas mais tradicionais pizzas italianas, a massa é produzida com um blend de farinhas especiais.</p>
+
+            <div class="product-info">
+               <p class="price-item">R$ 29.99</p>
+               <button class="btn-add-to-cart" data-name="Pizza de Quatro queijos" data-price="29.99" data-image="../img/pizza-quatro-queijos.webp">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+               </button>
+            </div>
+         </div>
+      </div>
+
+      <div class="card">
+         <img src="img//pizza-brigadeiro.jpg" alt="Pizza de Brigadeiro" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300 object-cover">
+
+         <div>
+            <p class="name-pizza">Pizza de Brigadeiro</p>
+            <p class="description">Inspirada nas mais tradicionais pizzas italianas, a massa é produzida com um blend de farinhas especiais.</p>
+
+            <div class="product-info">
+               <p class="price-item">R$ 49.99</p>
+               <button class="btn-add-to-cart" data-name="Pizza de Brigadeiro" data-price="49.99" data-image="../img/pizza-brigadeiro.jpg">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+               </button>
+            </div>
+         </div>
+      </div>
+
+      <div class="card">
+         <img src="img//pizza-romeu-e-julieta.jpg" alt="Pizza Romeu e Julieta" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300 object-cover">
+
+         <div>
+            <p class="name-pizza">Pizza Romeu e Julieta</p>
+            <p class="description">Inspirada nas mais tradicionais pizzas italianas, a massa é produzida com um blend de farinhas especiais.</p>
+
+            <div class="product-info">
+               <p class="price-item">R$ 49.99</p>
+               <button class="btn-add-to-cart" data-name="Pizza Romeu e Julieta" data-price="49.99" data-image="../img/pizza-romeu-e-julieta.jpg">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+               </button>
+            </div>
+         </div>
+      </div>
+
+      <div class="card">
+         <img src="img//pizza-nutella.jpg" alt="Pizza de Nutella" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300 object-cover">
+
+         <div>
+            <p class="name-pizza">Pizza de Nutella</p>
+            <p class="description">Inspirada nas mais tradicionais pizzas italianas, a massa é produzida com um blend de farinhas especiais.</p>
+
+            <div class="product-info">
+               <p class="price-item">R$ 59.99</p>
+               <button class="btn-add-to-cart" data-name="Pizza de Nutella" data-price="59.99" data-image="../img/pizza-nutella.jpg">
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+               </button>
+            </div>
+         </div>
+      </div>
+   </main>
+
+   <footer class="div-cart">
+      <p>Itens no carrinho ( <span id="itens-lenth">0</span> )</p>
+   </footer>
+
+
+   <div id="modal" class="modal display-none">
+      <div class="window-cart">
+         <h3>Meu Carrinho</h3>
+         <div id="itens-information">
+
+         </div>
+         <div class="finish-buy">
+            <button type="button" class="btns" id="back-btn">Fechar</button>
+            <div class="total-div" id="total-price">
+               Total:
+               <span id="total-price"></span>
+            </div>
+            <button type="button" class="btns" id="finish-btn">Finalizar</button>
+         </div>
+      </div>
+   </div>
+
+   <div class="display-none finish-window" id="finish-window">
+      <div class="window-finish">
+         <div class="input-group">
+            <label for="address" id="error-label">Endereço:</label>
+            <input type="text" id="address" autocomplete="off" class="input-finish">
+         </div>
+         <div class="div-buttons">
+            <button type="button" class="btns" id="voltar-btn">VOLTAR</button>
+            <button type="button" class="btns" id="submit">ENVIAR</button>
+         </div>
+      </div>
+   </div>
+
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+   <script src="./js/script.js"></script>
+</body>
+</html>

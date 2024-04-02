@@ -314,6 +314,14 @@ label {
       background-color: #f4f5f6;
       border-radius: 6px;
    }
+
+   .name-pizza {
+      font-size: 1.1rem;
+   }
+
+   .description {
+      font-size: 0.75rem;
+   }
 }
 
 .display-none {

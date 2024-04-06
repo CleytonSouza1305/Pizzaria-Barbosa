@@ -51,7 +51,7 @@ main {
    grid-template-columns: 1fr 1fr 1fr;
    gap: 1rem;
    padding: 2rem;
-   margin-bottom: 3rem;
+   margin-bottom: 1rem;
 }
 
 .card {

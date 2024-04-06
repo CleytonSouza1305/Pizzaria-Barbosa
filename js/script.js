@@ -242,8 +242,6 @@ addToCartBtns.forEach(function(btn) {
          
          cart.push(item)
          }
-    
-      console.log(cart);
 
       renderCart()
    })
